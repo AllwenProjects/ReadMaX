@@ -151,7 +151,7 @@ return {
                     ..'• Warn or kick users if they send a specific media\n'
                     ..'And More!You Can Get By Top To The <List Of All Commands Of Me>\n'
                     ..'\nPlease Join [My Channel] (https://telegram.me/ReadMaX)'
-                    ..'\nYou can report bugs/send feedbacks/ask a question to my creator just using "`/c <feedback>`" command. EVERYTHING IS WELCOME!',
+                    ..'\n`CopyRight` @HeIsArian & `The` @ReadMaX `Team`',
             group_success = '_Done!_',
             group_not_success = '_Please message me first so I can message you_',
             initial = 'Choose the *role* to see the available commands:',
