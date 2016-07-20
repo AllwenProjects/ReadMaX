@@ -35,7 +35,7 @@ return {
             banned = '_Banned!_'
         },
         bonus = {
-            general_pm = '_I\'ve sent you the message in private_',
+            general_pm = '_I Send To Your Private!_',
             no_user = 'I\'ve never seen this user before.\nIf you want to teach me who he is, forward me a message from him',
             the_group = 'the group',
             adminlist_admin_required = 'I\'m not a group Admin.\n*Only an Admin can see the administrators list*',
@@ -135,35 +135,24 @@ return {
                             .."`/menu` = manage the group settings in private with an handy inline keyboard.\n"
                             .."`/report [on/off]` (by reply) = the user won't be able (_off_) or will be able (_on_) to use \"@admin\" command.\n",
             },
-            all = '*Commands for all*:\n'
-                    ..'`/dashboard` : see all the group info from private\n'
-                    ..'`/rules` (if unlocked) : show the group rules\n'
-                    ..'`/about` (if unlocked) : show the group description\n'
-                    ..'`/adminlist` (if unlocked) : show the moderators of the group\n'
-                    ..'`@admin` (if unlocked) : by reply= report the message replied to all the admins; no reply (with text)= send a feedback to all the admins\n'
-                    ..'`/kickme` : get kicked by the bot\n'
-                    ..'`/faq` : some useful answers to frequent quetions\n'
-                    ..'`/id` : get the chat id, or the user id if by reply\n'
-                    ..'`/echo [text]` : the bot will send the text back (with markdown, available only in private for non-admin users)\n'
-                    ..'`/info` : show some useful informations about the bot\n'
-                    ..'`/group` : get the discussion group link\n'
-                    ..'`/c` <feedback> : send a feedback/report a bug/ask a question to my creator. _ANY KIND OF SUGGESTION OR FEATURE REQUEST IS WELCOME_. He will reply ASAP\n'
-                    ..'`/help` : show this message.'
-		            ..'\n\nIf you like this bot, please leave the vote you think it deserves [here](https://telegram.me/storebot?start=groupbutler_bot)',
-		    private = 'Hey, *&&&1*!\n'
-                    ..'I\'m a simple bot created in order to help people to manage their groups.\n'
-                    ..'\n*What can I do for you?*\n'
-                    ..'Wew, I have a lot of useful tools!\n'
+            all = '*Some UseFull Commands*:\n'
+                    ..'`/group` : Sends group main link\n'
+                    ..'`/c` [feedback] : Sends your message to readmax support team.\n'
+                    ..'`/help` : Sends This Message'
+		            ..'\n\nPlease vote ReadMaX In [StoreBot](https://telegram.me/storebot?start=ReadMaXBoT_bot)',
+		    private = 'Hello, *&&&1*!\n'
+                    ..'Welcome To ReadMaX\n'
+                    ..'\n*I/Can Do Them:*\n'
                     ..'• You can *kick or ban* users (even in normal groups) by reply/username\n'
                     ..'• Set rules and a description\n'
                     ..'• Turn on a configurable *anti-flood* system\n'
                     ..'• Customize the *welcome message*, also with gif and stickers\n'
                     ..'• Warn users, and kick/ban them if they reach a max number of warns\n'
                     ..'• Warn or kick users if they send a specific media\n'
-                    ..'...and more, below you can find the "all commands" button to get the whole list!\n'
-                    ..'\nTo use me, *you need to add me as administrator of the group*, or Telegram won\'t let me work! (if you have some doubts about this, check [this post](https://telegram.me/GroupButler_ch/63))'
+                    ..'And More!You Can Get By Top To The <List Of All Commands Of Me>\n'
+                    ..'\nPlease Join [My Channel] (https://telegram.me/ReadMaX'
                     ..'\nYou can report bugs/send feedbacks/ask a question to my creator just using "`/c <feedback>`" command. EVERYTHING IS WELCOME!',
-            group_success = '_I\'ve sent you the help message in private_',
+            group_success = '_Done!_',
             group_not_success = '_Please message me first so I can message you_',
             initial = 'Choose the *role* to see the available commands:',
             kb_header = 'Tap on a button to see the *related commands*'
@@ -186,7 +175,7 @@ return {
             feedback_reply = '*Hello, this is a reply from the bot owner*:\n&&&1',
         },
         service = {
-            welcome = 'Hi &&&1, and welcome to *&&&2*!',
+            welcome = 'Hi &&&1, and welcome to *&&&2*!Im ReadMaX Bot!',
             welcome_rls = 'Total anarchy!',
             welcome_abt = 'No description for this group.',
             welcome_modlist = '\n\n*Creator*:\n&&&1\n*Admins*:\n&&&2',
@@ -4220,3 +4209,4 @@ return {
         },
     },
 }
+
